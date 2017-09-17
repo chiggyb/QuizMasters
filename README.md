@@ -9,7 +9,7 @@ Team Members
 1. Chirag Bhardwaj 
 2. Shashwath H A 
 3. Saurabh Kulshreshtha 
-4. Priyanka 
+4. Priyanka Murthy 
 5. Zipei Wei
 6. Allison Rossetto
 
