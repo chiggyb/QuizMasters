@@ -20,7 +20,7 @@ Objective
 
 •	User Can Host a custom built quiz only for those who are authorized to take it.
 
-• 	The quiz will be judeged on the number of correct answers given in the lowest amount of time.
+• The quiz will be judged on the number of correct answers given in the lowest amount of time.
 
 •	User can select any category of his interest and start a quiz. User has to clear all the rounds to win the “Quiz Master” title. 
 
