@@ -16,12 +16,16 @@ Team Members
 
 Objective 
 
-ï	Create and host a Quizmaster Website.  Website will have different categories to take up the quiz. For example: Technology, Entertainment, Politics etc.
-ï	User Can Host a custom built quiz only for those who are authorized to take it.
-ï 	The quiz will be judeged on the number of correct answers given in the lowest amount of time.
-ï	User can select any category of his interest and start a quiz. User has to clear all the rounds to win the ìQuiz Masterî title. 
-ï	Quiz can be taken on the website or using the Quiz Master Mobile friendly website.
+‚Ä¢	Create and host a Quizmaster Website.  Website will have different categories to take up the quiz. For example: Technology, Entertainment, Politics etc.
+
+‚Ä¢	User Can Host a custom built quiz only for those who are authorized to take it.
+
+‚Ä¢ 	The quiz will be judeged on the number of correct answers given in the lowest amount of time.
+
+‚Ä¢	User can select any category of his interest and start a quiz. User has to clear all the rounds to win the ‚ÄúQuiz Master‚Äù title. 
+
+‚Ä¢	Quiz can be taken on the website or using the Quiz Master Mobile friendly website.
 
 Software Requirements
-ï	HTML/CSS, JavaScript
+‚Ä¢	HTML/CSS, JavaScript
 # QuizMasters
