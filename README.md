@@ -7,11 +7,10 @@ Team Name: Quiz Masters
 
 Team Members
 1. Chirag Bhardwaj 
-2. Shashwath H A 
-3. Saurabh Kulshreshtha 
-4. Priyanka Murthy 
-5. Zipei Wei
-6. Allison Rossetto
+2. Saurabh Kulshreshtha 
+3. Priyanka Murthy 
+4. Zipei Wei
+5. Allison Rossetto
 
 
 Objective 
