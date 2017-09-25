@@ -25,6 +25,23 @@ Objective
 
 •	Quiz can be taken on the website or using the Quiz Master Mobile friendly website.
 
+Agenda
+1.Home page
+2.Prepare a list of questions
+3.Implement API'S
+4.Facebook integration
+5.Guest/User Authorization
+6.Decide how many levels to win QuizMaster tittle
+7.UI implementation
+8.Quiz questions contribution by the users
+9.Award points based on level of difficulties(Easy,Medium,Hard)
+10.conduct a Survey
+11.Upload videos(if time permits)
+12. Database
+
 Software Requirements
-•	HTML/CSS, JavaScript. (Other requirements may be added)
+1.HTML/CSS, JavaScript. (Other requirements may be added)
+2.Front-end -angular js
+3.Backend-python
+4.Database - MongoDB
 # QuizMasters
