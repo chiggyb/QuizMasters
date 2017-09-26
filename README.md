@@ -9,8 +9,7 @@ Team Members
 1. Chirag Bhardwaj 
 2. Saurabh Kulshreshtha 
 3. Priyanka Murthy 
-4. Zipei Wei
-5. Allison Rossetto
+4. Allison Rossetto
 
 
 Objective 
