@@ -1,0 +1,9 @@
+Quiz Request:
+
+1. get questions and choices using quizID 
+	- returns the question and the multiple choice answers(be labeled)
+2. return correct answer to the question
+3. Return information on which users answered a given question
+4. Pass Timestamps for when users ansered a question	
+	- saved to calculate total response times later
+5. return answer times for all the users (labeled)
