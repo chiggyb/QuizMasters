@@ -1,0 +1,3 @@
+[submodule "node-js-test"]
+	path = node-js-test
+	url = https://github.com/kshre/node-js-test.git
