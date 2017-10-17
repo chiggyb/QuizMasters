@@ -17,7 +17,7 @@ export class NewQuestionnaireComponent implements OnInit {
   onload()
   {
     console.log(NewQuestionnaireComponent.questionTime);
-    this.ButtonClicks();    
+    // this.ButtonClicks();    
   }
 
   ngOnInit() {
@@ -27,28 +27,52 @@ export class NewQuestionnaireComponent implements OnInit {
 
  
 
-  ButtonClicks()
-  {
-    var option1=document.getElementById("option1");
-    var option2=document.getElementById("option2");
-    var option3=document.getElementById("option3");
-    var option4=document.getElementById("option4");
+  // ButtonClicks()
+  // {
+  //   var option1=document.getElementById("option1");
+  //   var option2=document.getElementById("option2");
+  //   var option3=document.getElementById("option3");
+  //   var option4=document.getElementById("option4");
     
-    // let handler = (e:MouseEvent)=>this.answer();
-    // option1.addEventListener("click",this.answer.bind(this));
-    // option2.addEventListener("click",()=> this.answer());
-    // option3.addEventListener("click",()=> this.answer());
-    // option4.addEventListener("click",()=> this.answer());
+  //   // let handler = (e:MouseEvent)=>this.answer();
+  //   // option1.addEventListener("click",this.answer.bind(this));
+  //   // option2.addEventListener("click",()=> this.answer());
+  //   // option3.addEventListener("click",()=> this.answer());
+  //   // option4.addEventListener("click",()=> this.answer());
     
-  }
+  // }
   answer(n:number)
   {
     var answerTime:number;
     answerTime=performance.now();  
-    var finalTime=(NewQuestionnaireComponent.questionTime-answerTime);
-    console.log(n);
-    console.log(finalTime);
+    var finalTime=(answerTime - NewQuestionnaireComponent.questionTime);
+    switch(n)
+    {
+      case 1: {
+        document.getElementById("option1").textContent= finalTime.toString();          
+        break;
+      }
+        
+      case 2: {
+        document.getElementById("option2").textContent= finalTime.toString();          
+        break;
+      }      
+        
+      case 3: {
+        document.getElementById("option3").textContent= finalTime.toString();          
+        break;
+      }
+      case 4: {
+        document.getElementById("option4").textContent= finalTime.toString();          
+        break;
+      }
+      default:
+        {
+          break;
+        }
+      
+    }
+
+    }
 
   }
-
-}
