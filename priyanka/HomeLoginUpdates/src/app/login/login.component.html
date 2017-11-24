@@ -1,0 +1,96 @@
+<html>
+<head>
+
+</head>
+<body>
+ <header>
+
+ <div style="text-align:right;">
+    <div class="col-md-6 col-md-offset-3">
+        <h2>Login</h2>
+        <form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+            <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" name="username" [(ngModel)]="model.username" #username="ngModel" required />
+                <div *ngIf="f.submitted && !username.valid" class="help-block">Username is required</div>
+            </div>
+            <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !password.valid }">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" [(ngModel)]="model.password" #password="ngModel" required />
+                <div *ngIf="f.submitted && !password.valid" class="help-block">Password is required</div>
+            </div>
+            <div class="form-group">
+                <button [disabled]="loading" class="btn btn-primary">Login</button>
+                <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+                <a [routerLink]="['/register']" class="btn btn-link">Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <div style="text-align:center;">
+           <h1>Quiz Master</h1>
+           <img src="http://www.jessons.dudley.sch.uk/rsquiz/style/images/quizlogo.png" alt="www.jessons.dudley.sch.uk" style="width:200px;height:150px;" align="middle">
+           <p>You're logged into QuizMaster</p>
+           <p><a [routerLink]="['/login']">Logout</a></p>
+    </div> 
+
+    <nav>
+
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-login-button" data-width="40" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="true"></div>
+
+
+                <!-- TODO : Google sign not currently working. Need to figure out how to get ths running.-->
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>   
+    </nav>
+    </header>
+        
+        <section id="middle_bg">
+          <div class="container">
+            <h1>Welcome to the Quiz Master</h1>
+              <p>Choose your interest</p>
+            
+          </div>
+        </section>
+        
+        
+        
+        <table>
+            <tr>
+            <th><a href="Entertainment.component.html">Entertainment!</a></th>
+              <th><a href="Technology.component.html">Technology!</a></th>
+              <th><a href="History.component.html">History!</a></th>
+              <th><a href="Random.component.html">Random!</a></th>
+            
+            </tr>   
+            <tr>
+              <td> <img src="https://vignette.wikia.nocookie.net/kungfupanda/images/f/f5/KFP3-tigress.jpg/revision/latest/top-crop/width/320/height/320?cb=20150727165055" width = 250></td>
+              <td> <img src="https://vignette2.wikia.nocookie.net/kungfupanda/images/a/a6/KFP3-promo-shifu.jpg/revision/latest/scale-to-width-down/350?cb=20160223200109" width = 250></td>
+              <td> <img src="https://vignette.wikia.nocookie.net/kungfupanda/images/7/73/KFP3-promo-po4.jpg/revision/latest/scale-to-width-down/350?cb=20150726165358" width = 250></td>
+              <td> <img src="https://vignette.wikia.nocookie.net/kungfupanda/images/e/ef/KFP3-promo-mantis1.jpg/revision/latest/scale-to-width-down/350?cb=20150726231824" width = 250></td> 
+            </tr>
+          </table>
+        
+        
+        <section id="contact_email">
+          <div class="container">
+            <form>
+              <input type="email" placeholder="Enter your email">
+              <button type="submit" class="email_button">Subscribe</button>
+            </form>
+          </div>
+        </section>
+    
+    
+ 
+</body>
+</html>
+
