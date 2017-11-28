@@ -1,0 +1,21 @@
+
+
+<div style="text-align:right;">
+  <nav>
+
+                  <div id="fb-root"></div>
+                  <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+                  <div class="fb-login-button" data-width="40" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="true"></div>
+
+
+                  <!-- TODO : Google sign not currently working. Need to figure out how to get ths running.-->
+                  <div class="g-signin2" data-onsuccess="onSignIn"></div>  
+                   <a [routerLink]="['/login']" class="btn btn-link">Cancel</a>
+      </nav>
+</div>
