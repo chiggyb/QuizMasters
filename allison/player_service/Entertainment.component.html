@@ -1,0 +1,18 @@
+
+    <section id="middle_bg">
+      <div class="container">
+        <h1>Welcome to the Entertainment Quiz</h1>
+          <button>Start Quiz</button>
+		
+		<ul class="players">
+		  <li *ngFor="let p of players">
+			<a routerLink="/detail/{{players.userName}}">
+			  <span class="badge">{{players.userName}}</span>
+			</a>
+		  </li>
+		</ul>
+		
+      </div>
+    </section>
+    
+   
