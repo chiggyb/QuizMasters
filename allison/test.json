@@ -1,0 +1,24 @@
+{
+	"quiz": [{
+		"id": 0,
+		"questions": [{
+			"id": 1,
+			"text": "Quis sit dolor tempor fugiat fugiat culpa qui?",
+			"answers": [{
+				"Index0": [{
+					"text": "Correct"
+				}],
+				"Index1": [{
+					"text": "Incorrect"
+				}],
+
+				"Index2": [{
+					"text": "Incorrect"
+				}],
+				"Index3": [{
+					"text": "Incorrect"
+				}]
+			}]
+		}]
+	}]
+}

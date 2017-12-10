@@ -1,0 +1,117 @@
+{
+	"quiz": [{
+		"id": 1,
+		"questions": [{
+			"question1": [{
+				"text": "What is the capital of Botswana?",
+				"answers": [{
+					"Index0": [{
+						"text": "Gaborone",
+						"ans": "Correct"
+					}],
+					"Index1": [{
+						"text": "London",
+						"ans": "Incorrect"
+					}],
+
+					"Index2": [{
+						"text": "Pretoria",
+						"ans": "Incorrect"
+					}],
+					"Index3": [{
+						"text": "Johannesburg",
+						"ans": "Incorrect"
+					}]
+				}]
+			}],
+			"question2": [{
+				"text": "What is the closest star to our solar system?",
+				"answers": [{
+					"Index0": [{
+						"text": "Tau Ceti",
+						"ans": "Incorrect"
+					}],
+					"Index1": [{
+						"text": "Proxima Centuri",
+						"ans": "Correct"
+					}],
+
+					"Index2": [{
+						"text": "Alpha Centuri A",
+						"ans": "Incorrect"
+					}],
+					"Index3": [{
+						"text": "Barnards Star",
+						"ans": "Incorrect"
+					}]
+				}]
+			}],
+			"question3": [{
+				"text": "Who was the second President of the US?",
+				"answers": [{
+					"Index0": [{
+						"text": "John Tyler",
+						"ans": "Incorrect"
+					}],
+					"Index1": [{
+						"text": "Thomas Jefferson",
+						"ans": "Incorrect"
+					}],
+
+					"Index2": [{
+						"text": "James Madison",
+						"ans": "Incorrect"
+					}],
+					"Index3": [{
+						"text": "John Adams",
+						"ans": "Correct"
+					}]
+				}]
+			}],
+			"question4": [{
+				"text": "Which is not a breed of chicken?",
+				"answers": [{
+					"Index0": [{
+						"text": "Silkie",
+						"ans": "Incorrect"
+					}],
+					"Index1": [{
+						"text": "Australorp",
+						"ans": "Incorrect"
+					}],
+
+					"Index2": [{
+						"text": "Cochin",
+						"ans": "Incorrect"
+					}],
+					"Index3": [{
+						"text": "Labrador",
+						"ans": "Incorrect"
+					}]
+				}]
+			}],
+			"question5": [{
+				"text": "What is the most produced grain in the world?",
+				"answers": [{
+					"Index0": [{
+						"text": "Corn",
+						"ans": "Correct"
+					}],
+					"Index1": [{
+						"text": "Wheat",
+						"ans": "Incorrect"
+					}],
+
+					"Index2": [{
+						"text": "Rice",
+						"ans": "Incorrect"
+					}],
+					"Index3": [{
+						"text": "Barley",
+						"ans": "Incorrect"
+					}]
+				}]
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+[{
+	"userName": "Bob",
+	"timestamp": 1512246193,
+	"quizId": 1,
+	"questionNum": 1,
+	"correct": true
+}, {
+	"userName": "A person",
+	"timestamp": 1512246188,
+	"quizId": 1,
+	"questionNum": 1,
+	"correct": false
+}, {
+	"userName": "Someone else",
+	"timestamp": 1512246189,
+	"quizId": 1,
+	"questionNum": 1,
+	"correct": true
+}, {
+	"userName": "Player 3",
+	"timestamp": 1512246190,
+	"quizId": 1,
+	"questionNum": 1,
+	"correct": false
+}]

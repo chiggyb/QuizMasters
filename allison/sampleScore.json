@@ -1,0 +1,30 @@
+[{
+
+		"quizid": 5,
+		"userName": "Bob",
+		"score": 50
+
+}, {
+
+		"quizid": 5,
+		"userName": "player2",
+		"score": 150
+
+}, {
+
+		"quizid": 5,
+		"userName": "player3",
+		"score": 600
+	
+}, {
+	"quizid": 5,
+		"userName": "player 5",
+		"score": 100
+
+}, {
+
+		"quizid": 5,
+		"userName": "player4",
+		"score": 550
+	
+}]

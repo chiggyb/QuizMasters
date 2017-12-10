@@ -1,0 +1,15 @@
+get players lobby list: /lobby
+https://api.mlab.com/api/1/databases/quizmasters1/collections/lobby?f={"_id":0}&fo=true&apiKey=aMBn_oLsrDEupTvuckLPqxngAhoEW1U1
+
+get quiz: /quiz
+https://api.mlab.com/api/1/databases/quizmasters1/collections/quizzes?f={"_id":0}&fo=true&apiKey=aMBn_oLsrDEupTvuckLPqxngAhoEW1U1
+
+get results: /results
+https://api.mlab.com/api/1/databases/quizmasters1/collections/results?f={"_id":0}&fo=true&apiKey=aMBn_oLsrDEupTvuckLPqxngAhoEW1U1
+
+
+post scores: /score
+https://api.mlab.com/api/1/databases/quizmasters1/collections/score?apiKey=aMBn_oLsrDEupTvuckLPqxngAhoEW1U1&q={"quizid": #}
+
+post user information: /user
+https://api.mlab.com/api/1/databases/quizmasters1/collections/users?apiKey=aMBn_oLsrDEupTvuckLPqxngAhoEW1U1
