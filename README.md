@@ -1,46 +1,19 @@
-Quiz Master 
-(Project Plan)
+                                                            Quiz Masters
+                                  Quiz Masters is a project based on the fastest finger first game.
+                                  
+1. The game consists of a total of 10 questions with each question being displayed to the user at a given time. 
+2. The answers are then recorded with a timestamp and sent to the backend for score processing. 
+3. Scores are calculated on the basis of the timestamp of the answer multiplied by 1 if correct and 10 if inccorect. 
+4. Final Scores are then displayed at the end in a tabular form. 
+5. User Can host a custom built game for those who are authorized to take it.
 
+Technologies used:
+1. Front-end : HTML 5, CSS 3, Bootstrap 4, Typescript with Angular 4
+2. Backend : Python on mlabs with MongoDb database
+3. Timing: moment.js
 
-
-Team Name: Quiz Masters
-
-Team Members
-1. Chirag Bhardwaj 
-2. Saurabh Kulshreshtha 
-3. Priyanka Murthy 
-4. Allison Rossetto
-
-
-Objective 
-
-•	Create and host a Quizmaster Website.  Website will have different categories to take up the quiz. For example: Technology, Entertainment, Politics, etc.
-
-•	User can host a custom built quiz only for those who are authorized to take it.
-
-• The quiz will be judged on the number of correct answers given in the lowest amount of time.
-
-•	User can select any category of his interest and start a quiz. User has to clear all the rounds to win the “Quiz Master” title. 
-
-•	Quiz can be taken on the website or using the Quiz Master Mobile friendly website.
-
-Agenda
-1.Home page
-2.Prepare a list of questions
-3.Implement API'S
-4.Facebook integration
-5.Guest/User Authorization
-6.Decide how many levels to win QuizMaster tittle
-7.UI implementation
-8.Quiz questions contribution by the users
-9.Award points based on level of difficulties(Easy,Medium,Hard)
-10.conduct a Survey
-11.Upload videos(if time permits)
-12. Database
-
-Software Requirements
-1.HTML/CSS, JavaScript. (Other requirements may be added)
-2.Front-end -angular js
-3.Backend-python
-4.Database - MongoDB
-# QuizMasters
+Team Members:
+1. Chirag Bhardwaj : Frontend and Code Integration
+2. Allison Rossetto: Backend and Database Integration
+3. Priyanka Murthy: Social Login
+4. Saurabh Kulshreshtha: Social data Integration
