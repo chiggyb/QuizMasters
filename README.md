@@ -1,4 +1,4 @@
-                                                            Quiz Masters
+#                                                            Quiz Masters
                                   Quiz Masters is a project based on the fastest finger first game.
                                   
 1. The game consists of a total of 10 questions with each question being displayed to the user at a given time. 
